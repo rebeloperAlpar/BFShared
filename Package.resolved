@@ -41,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/rebeloperAlpar/FirebaseService300.git",
       "state" : {
-        "revision" : "e2ae9c911cd2c7facfe717c94dc91c6fc4f6a90d",
-        "version" : "3.0.0"
+        "revision" : "b6dd908e4765383e64d91bc89edee65678e60835",
+        "version" : "3.0.1"
       }
     },
     {
