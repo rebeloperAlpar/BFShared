@@ -27,7 +27,7 @@ let package = Package(
         .target(
             name: "BFShared",
             dependencies: [
-                "FirebaseService300",
+                .product(name: "FirebaseService", package: "FirebaseService300"),
                 .product(name: "FirebaseFunctions", package: "Firebase"),
                 .product(name: "FirebaseDynamicLinks", package: "Firebase"),
                 .product(name: "FirebaseMessaging", package: "Firebase"),
