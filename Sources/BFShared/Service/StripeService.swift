@@ -32,6 +32,13 @@ public class StripeService : ObservableObject {
     
     @Published public var accountId = ""
     
+    @Published public var instructions = ""
+    
+    @Published public var couponCode = ""
+    @Published public var coupon: Coupon = Coupon()
+    
+    @Published public var tip = 0.0
+    
     public let taxPercentage: Double = 10.25
     public let serviceFeePercentage: Double = 9 // make sure this is exactly the same as set up in the: firebase functions:config:set stripe.application_fee_percentage="9"
     
